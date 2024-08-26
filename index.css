@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=New+Amsterdam&display=swap');
+
+#adicionar {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+#adicionar:hover {
+  background-color: #2980b9;
+}
+
+.lt__nome{
+  font-family: "New Amsterdam", sans-serif;
+}
+
+.lista-tarefas{
+  margin: 14px;
+  max-width: 650px;
+  width: 100%;
+  box-sizing: 0 3px 5px rgba(0,0,0, 0.5);
+  overflow: hidden;
+}
+
+
+
+.excluir{
+background-image: url(lixo.png);
+  background-color:red;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
